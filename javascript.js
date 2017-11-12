@@ -1,5 +1,8 @@
-var access;
-var age = prompt('How old are you?', '');
+var age = prompt('Age?', '');
 
-access = (age > 14) ? true : false; //We can omit parentheses
-alert(access);
+var message = (age < 3) ? 'Hi, kid!' :
+(age < 18) ? 'Hi!' :
+(age < 100) ? 'Good day!' :
+'What an unusual age!';
+
+alert (message);
