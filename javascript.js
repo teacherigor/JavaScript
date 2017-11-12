@@ -1,9 +1,10 @@
-var year = prompt("Enter the date when the ECMA-262 5.1 standard was released", "");
+var access;
+var age = prompt('How old are you?', '');
 
-if (year < 2011) {
-	alert ("It's too early...");
-} else if (year > 2011) {
-	alert ("It's a little bit late...");
+if (age > 14) {
+	access = true;
 } else {
-	alert ("Yes, this year precisely!");
+	access = false;
 }
+
+alert(access);
