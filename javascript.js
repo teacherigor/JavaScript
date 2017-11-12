@@ -1,7 +1,7 @@
-var year = prompt("Введіть рік, коли з'явився стандарт ECMA-262 5.1", "");
+var year = prompt("Enter the date when the ECMA-262 5.1 standard was released", "");
 
 if (year == 2011) {
-	alert (Та ви вахівець!);
+	alert ("You're JS-savvy!");
 } else {
-	alert ("А ось і неправильно!");
+	alert ("Way wrong answer!");
 }
