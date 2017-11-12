@@ -1,10 +1,5 @@
 var access;
 var age = prompt('How old are you?', '');
 
-if (age > 14) {
-	access = true;
-} else {
-	access = false;
-}
-
+access = (age > 14) ? true : false;
 alert(access);
