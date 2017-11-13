@@ -1,8 +1,13 @@
 var age = prompt('Age?', '');
 
-var message = (age < 3) ? 'Hi, kid!' :
-(age < 18) ? 'Hi!' :
-(age < 100) ? 'Good day!' :
-'What an unusual age!';
+if (age < 3) {
+	message = 'Hi, kid!';
+} else if (age < 18) {
+	message = 'Hello!';
+} else if (age < 100) {
+	message = 'Good day!';
+} else {
+	message = 'What an unsual age!';
+}
 
 alert (message);
