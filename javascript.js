@@ -1,13 +1,7 @@
-var age = prompt('Age?', '');
+var company = prompt('What company created JavaScript?', '');
 
-if (age < 3) {
-	message = 'Hi, kid!';
-} else if (age < 18) {
-	message = 'Hello!';
-} else if (age < 100) {
-	message = 'Good day!';
+if (company == 'Netscape') {
+	alert('Yes, correct');
 } else {
-	message = 'What an unsual age!';
+	alert('Wrong');
 }
-
-alert (message);
