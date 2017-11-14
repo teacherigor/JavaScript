@@ -1,9 +1,9 @@
-var value = prompt('Enter a number', 0);
+var value = prompt('Enter your login', '');
 
-if (value > 0) {
-	alert(1);
-} else if (value < 0) {
-	alert(-1);
-}else {
-	alert(0);
+if (value == 'Admin') {
+	alert('Enter password');
+} else if (value == 'Other') {
+	alert("I don't know you!" );
+}else if (value == 'Escape') {
+	alert('Enter cancelled');
 }
