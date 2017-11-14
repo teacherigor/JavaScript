@@ -1,7 +1,7 @@
-var company = prompt ('What is the official JavaScript name', '');
+var value = prompt ('What is the official JavaScript name', '');
 
-if (company == "EcmaScript") {
-	alert("Exactly!");
+if (value == 'EcmaScript') {
+	alert('Exactly!');
 } else {
-	alert("Way wrong!");
+	alert('Way wrong!');
 }
