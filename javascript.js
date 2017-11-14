@@ -1,7 +1,9 @@
-var value = prompt ('What is the official JavaScript name', '');
+var value = prompt('Enter a number', '');
 
-if (value == 'EcmaScript') {
-	alert('Exactly!');
-} else {
-	alert('Way wrong!');
+if (value > 0) {
+	alert(1);
+} else if (value < 0) {
+	alert(-1);
+}else {
+	alert(0);
 }
