@@ -1,4 +1,4 @@
-var value = prompt('Enter a number', '');
+var value = prompt('Enter a number', 0);
 
 if (value > 0) {
 	alert(1);
