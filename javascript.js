@@ -1,9 +1,20 @@
 /*
-if (a + b < 4) {
-	result = 'Not enough';
+var message;
+
+if (login == 'Vasia') {
+	message = 'Hi';
+} else if (login == 'Manager') {
+	message = 'Hello';
+} else if (login == '') {
+	message = 'No login';
 } else {
-	result = 'More than enough';
+	message = '';
 }
+
 */
 
-result = (a + b < 4) ? 'Not enough' : 'More than enough';
+var message;
+
+var message = 'Vasia' ? 'Hi' :
+'Manager' ? 'Hello' :
+'' ? 'No login';
