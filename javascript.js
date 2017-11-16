@@ -13,8 +13,7 @@ if (login == 'Vasia') {
 
 */
 
-var message;
-
-var message = 'Vasia' ? 'Hi' :
-'Manager' ? 'Hello' :
-'' ? 'No login';
+var message = (login == 'Vasia') ? 'Hi' :
+(login == 'Manager') ? 'Hello' :
+(login == '') ? 'No login':
+'';
