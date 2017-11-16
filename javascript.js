@@ -6,3 +6,4 @@ if (a + b < 4) {
 }
 */
 
+(a + b < 4) ? 'Not enough' : 'More than enough';
