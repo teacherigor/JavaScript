@@ -1,5 +1,6 @@
-var hour = 9;
+var hour = 12,
+	isWeekend = true;
 
-if (hour < 10 || hour > 18) {
-	alert('Office is closed before 10 am or after 18 pm');
+if (hour < 10 || hour > 18 || isWeekend) {
+	alert('Office is closed either before 10 am or after 6 pm, or on the weekend');
 }
