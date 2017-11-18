@@ -1,4 +1,3 @@
-alert(true && true); //true
-alert(false && true); //false
-alert(true && false); //false
-alert(false && false); //false
+if (1 && 0) { // is calculated as true && false
+	alert ('Will not work because the condition is false');
+}
