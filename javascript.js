@@ -1,5 +1,5 @@
 var x;
 
-true || (x = 1);
+false || (x = 1);
 
-alert(x); //undefined, x is not assigned
+alert(x); // true, x is assigned 1
