@@ -1,6 +1,5 @@
-var hour = 12,
-	isWeekend = true;
+var x;
 
-if (hour < 10 || hour > 18 || isWeekend) {
-	alert('Office is closed either before 10 am or after 6 pm, or on the weekend');
-}
+true || (x = 1);
+
+alert(x); //undefined, x is not assigned
