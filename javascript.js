@@ -1,1 +1,9 @@
-alert( 5 || 1 && 0); //5
+var x = 1;
+
+(x > 0) && alert('More');
+
+var x = 1;
+
+if(x > 0) {
+	alert('More');
+}
