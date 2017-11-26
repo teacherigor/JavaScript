@@ -1,2 +1,3 @@
-let favoriteAnimal = 'cat';
-alert('My favorite pet is a ' + favoriteAnimal + '.');
+let myName = 'Igor';
+let myCity = 'Khmelnitskii';
+alert(`My name is ${myName}. My favorite city is ${myCity}.`)
