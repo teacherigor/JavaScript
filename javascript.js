@@ -1,9 +1,12 @@
-var x = 1;
+// This line of code sets the variable location to the string New York City
+const location = 'New York City';
 
-(x > 0) && alert('More');
+//This line of code sets the variable latitude to the number 40.7
+let latitude = 40.7;
 
-var x = 1;
+//This line of code sets the variable inNorthernHemisphere to true
+let inNorthernHemisphere = true;
 
-if(x > 0) {
-	alert('More');
-}
+console.log(location);
+console.log(latitude);
+console.log(inNorthernHemisphere);
