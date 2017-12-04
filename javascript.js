@@ -1,2 +1,5 @@
-var myStr = "FirstLine\n\\SecondLine\\\rThirdLine";
-alert(myStr);
+var someAdjective = "challenging!";
+var myStr = "Learning to code is ";
+myStr += someAdjective;
+
+alert (myStr);
