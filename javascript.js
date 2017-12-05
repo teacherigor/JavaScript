@@ -2,4 +2,4 @@
 var lastName = "Semenuk";
 var thirdLetterOfLastName = lastName[2];
 
-alert ('lastName');
+alert(thirdLetterOfLastName);
