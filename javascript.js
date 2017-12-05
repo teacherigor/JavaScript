@@ -1,6 +1,5 @@
-// Appending variables to strings
-var someAdjective = "challenging!";
-var myStr = "Learning to code is ";
-myStr += someAdjective;
+// Use bracket notation to get the character at other positions withing a string
+var lastName = "Semenuk";
+var thirdLetterOfLastName = lastName[2];
 
-alert (myStr);
+alert ('lastName');
