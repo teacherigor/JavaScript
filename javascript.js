@@ -1,5 +1,7 @@
-// Use bracket notation to the NthtoLast character
-var lastName = "Semenuk";
-var lastLetterOfLastName = lastName[lastName.length - 4];
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+	var result = myNoun + '' + myAdjective + '' + myVerb + '' + myAdverb;
+	
+	return result;
+}
 
-alert(lastLetterOfLastName);
+wordBlanks("dog", "big", "ran", "quickly");
