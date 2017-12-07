@@ -1,10 +1,16 @@
-// I declared a new var to print out the sentence
-function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
-	var result = 'This ' + myAdjective + ' ' + myNoun + ' ' + myVerb + ' very ' + myAdverb + '.';
-	
-	return result;
+let orderCount = 0;
+const takeOrder = (topping, crustType) => {
+	orderCount ++;
+	console.log('Order: ' + crustType + ' pizza topped with ' + topping);
+};
+
+let getSubTotal = (itemCount) => {
+	return itemCount * 7.5;
 }
 
-var sentence = wordBlanks("dog", "big", "ran", "quickly");
+takeOrder('mushroom', 'thin crust');
+takeOrder('spinach', 'whole wheat');
+takeOrder('pepperoni', 'brooklyn style');
 
-alert(sentence);
+console.log(getSubTotal(orderCount));
+
