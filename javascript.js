@@ -1,16 +1,5 @@
-let orderCount = 0;
-const takeOrder = (topping, crustType) => {
-	orderCount ++;
-	console.log('Order: ' + crustType + ' pizza topped with ' + topping);
-};
+var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
 
-let getSubTotal = (itemCount) => {
-	return itemCount * 7.5;
-}
+var myData = myArray[2][1];
 
-takeOrder('mushroom', 'thin crust');
-takeOrder('spinach', 'whole wheat');
-takeOrder('pepperoni', 'brooklyn style');
-
-console.log(getSubTotal(orderCount));
-
+alert(myData);
