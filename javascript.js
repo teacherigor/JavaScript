@@ -1,1 +1,4 @@
-var myList = [["Chicken", 150], ["Razor", 14], ["Sprite", 22], ["Deodorant", 50], ["Tomatoes", 40]];
+function functionWithArgs(a, b) {
+	console.log(a + b);
+}
+functionWithArgs(1, 2);
