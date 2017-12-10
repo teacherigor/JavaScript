@@ -1,9 +1,6 @@
-var outerWear = "T-Shirt";
-
-function myOutfit() {
-	var outerWear = "sweater"
-
-	return outerWear;
+function timesFive(num) {
+	return num * 5;
 }
+var answer = timesFive(5);
 
-myOutfit();
+alert(answer);
