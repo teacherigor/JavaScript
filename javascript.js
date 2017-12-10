@@ -1,9 +1,9 @@
-var processed = 0;
-
-function processArg(num) {
-	return (num + 3) / 5;
+function isGreaterThan (numberOne, numberTwo) {
+	if(numberOne > numberTwo) {
+		return true;
+	} else {
+		return false;
+	}
 }
 
-processed = processArg(8);
-
-alert(processed);
+alert(isGreaterThan(3,2, 3,1));
