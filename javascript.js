@@ -1,7 +1,9 @@
-function myLocalScope() {
-	'use strict';
-	var myVar;
+var outerWear = "T-Shirt";
 
-	console.log(myVar);
+function myOutfit() {
+	var outerWear = "sweater"
+
+	return outerWear;
 }
-myLocalScope();
+
+myOutfit();
