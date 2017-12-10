@@ -1,6 +1,9 @@
-function timesFive(num) {
-	return num * 5;
-}
-var answer = timesFive(5);
+var processed = 0;
 
-alert(answer);
+function processArg(num) {
+	return (num + 3) / 5;
+}
+
+processed = processArg(8);
+
+alert(processed);
