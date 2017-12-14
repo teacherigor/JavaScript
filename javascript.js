@@ -1,3 +1,9 @@
-
 'use strict';
-alert (alert(1) || 2 || alert(3)); // 1, then 2. But I don't udnerstand why.
+function trueOrFalse(wasThatTrue) {
+	if (wasThatTrue) {
+		return "Yes, that was true";
+	}
+		return "No, that was false";
+}
+
+trueOrFalse(true);
