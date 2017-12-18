@@ -1,21 +1,23 @@
 'use strict';
-function golfScore(par, srokes) {
-	if (strokes == 1) {
-    	return "Hole-in-one!";
-  } else if (strokes <= par - 2) {
-    	return "Eagle";
-  } else if (strokes == par - 1) {
-    	return "Birdie";
-  } else if (strokes == par) {
-    	return "Par";
-  } else if (strokes == par +1) {
-    	return "Bogey";
-  } else if (strokes == par + 2) {
-    	return "Double Bogey";
-  } else if (strokes >= par + 3) {
-    	return "Go Home!";
-  }
-		return "Change Me";
+function caseSwitch(val) {
+	var answer = "";
+	switch (val) {
+		case 1:
+			answer = "alpha";
+			break;
+		case 2:
+			answer = "beta";
+			break;
+		case 3:
+			answer = "gamma";
+			break;
+		case 4:
+		answer = "delta";
+		break;
+			
+	}
+	
+	return answer;
 }
 
-golfScore(5, 4);
+alert (caseSwitch(1));
