@@ -1,26 +1,8 @@
 'use strict';
 
-var count = 0;
-
-functon cc(card) {
-	switch (card) {
-		case 2:
-		case 3:
-		case 4:
-		case 5:
-		case 6:
-			count++;
-			break;
-		case 10:
-		case 'J';
-		case 'Q';
-		case 'K';
-		case 'A';
-			count--;
-			break;
-	}
-	
-	if (count > 0) {}
-}
-
-cc('A');
+var myDog = {
+	"name": "Chuck",
+	"legs": 4,
+	"tails": 1,
+	"friends": ["Everybody", "A ball"]
+};
