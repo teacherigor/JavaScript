@@ -1,10 +1,10 @@
 'use strict';
 
 var testObj = {
-	"hat": "ballcap",
-	"shirt": "jersey",
-	"shoes": "cleats"
+	"an entree": "hamburger",
+	"my side": "veggies",
+	"the drink": "water"
 };
 
-var hatValue = testObj.hat;
-var shirtValue = testObj.shirt;
+var entreeValue = testObj["an entree"];
+var drinkValue = testObj["the drink"];
