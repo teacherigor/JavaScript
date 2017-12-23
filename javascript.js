@@ -1,10 +1,23 @@
 'use strict';
 
-var testObj = {
-	"an entree": "hamburger",
-	"my side": "veggies",
-	"the drink": "water"
-};
+function caseInSwitch(val) {
+	var answer = "";
+	switch(val) {
+		case 1:
+			answer = "alpha";
+			break;
+		case 2:
+			answer = "beta";
+			break;
+		case 3:
+			answer = "gamma";
+			break;
+		case 4:
+			answer = "delta";
+			break;
+	}
 
-var entreeValue = testObj["an entree"];
-var drinkValue = testObj["the drink"];
+	return answer;
+}
+
+caseInSwitch(4)
