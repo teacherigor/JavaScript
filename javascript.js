@@ -1,23 +1,11 @@
 'use strict';
+var testObj = {
+	12: "Namah",
+	16: "Montana",
+	19: "Unitas"
+};
 
-function caseInSwitch(val) {
-	var answer = "";
-	switch(val) {
-		case 1:
-			answer = "alpha";
-			break;
-		case 2:
-			answer = "beta";
-			break;
-		case 3:
-			answer = "gamma";
-			break;
-		case 4:
-			answer = "delta";
-			break;
-	}
+var playNumber = 16;
+var player = testObj[playerNumber];
 
-	return answer;
-}
-
-caseInSwitch(4)
+alert('player');
