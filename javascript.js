@@ -1,11 +1,10 @@
 'use strict';
-var testObj = {
-	12: "Namah",
-	16: "Montana",
-	19: "Unitas"
+
+var myDog = {
+"name": "Dick",
+"legs": 4,
+"tails": 1,
+"friends": ["balls" "family"]
 };
 
-var playNumber = 16;
-var player = testObj[playerNumber];
-
-alert('player');
+myDog.name = "Chuck";
