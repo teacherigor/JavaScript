@@ -7,4 +7,4 @@ var myDog = {
 	"friends": ["family", "balls", "stuffed toys"]
 };
 
-myDog.bark = "woof";
+delete myDog.tails;
