@@ -1,10 +1,10 @@
 'use strict';
 
 var myDog = {
-"name": "Dick",
-"legs": 4,
-"tails": 1,
-"friends": ["balls" "family"]
+	"name": "Happy Chuck",
+	"legs": 4,
+	"tails": 1,
+	"friends": ["family", "balls", "stuffed toys"]
 };
 
-myDog.name = "Chuck";
+myDog.bark = "woof";
