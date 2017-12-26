@@ -1,22 +1,7 @@
 'use strict';
 
-var myPlants = [
-	{
-		type: "flowers",
-		list: [
-			"rose",
-			"tulip",
-			"dandelion"
-		]
-	},
-	{
-		type: "trees",
-		list: [
-			"fir",
-			"pine",
-			"birch"
-		]
-	}
-];
+var myArray = [];
 
-var secondTree = myPlants[1].list[1];
+for (var i = 1; i < 6; i++) {
+	myArray.push(i);
+}
