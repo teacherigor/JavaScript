@@ -1,7 +1,9 @@
 'use strict';
+//Iterate through an array with a for loop
+var myArray = [2, 3, 4, 5, 6];
+var total = 0;
 
-var myArray = [];
-
-for (var i = 9; i > 0; i-=2) {
-	myArray.push(i);
+for (var i = 0; i < myArray.length; i++) {
+	total += myArray[i];
+	console.log(total[i]);
 }
