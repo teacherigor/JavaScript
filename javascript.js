@@ -27,6 +27,18 @@ var contacts = [
 	}
 ];
 
-function lookUpProfile(firstName, prop) {}
+function lookUpProfile(firstName, prop) {
+	for (var x = 0; x < contacts[x]; x++) {
+		if (contacts[x].firstName === firstName) {
+			if (contacts[x].hasOwnProperty(prop)) {
+				return contacts[x][prop];
+			} else {
+				return "No such property";
+			}
+		}
+	}
+	
+	return "No such contact";
+}
 
 lookUpProfile("Akira", "likes");
